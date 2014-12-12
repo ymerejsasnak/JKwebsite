@@ -8,16 +8,16 @@
 
 
 body {
-	background: linear-gradient(#444, #222);
-  height: 100vh;
+	background-image: url(../img/grungypaper.jpg);
+	width: 100%;
+	height: 100vh;
 }
 
 #main-container {
-	background-image: url(../img/paper.jpg);
-	margin-left: 8.33%;	
+		margin-left: 8.33%;	
 	width: 83.33%;
 	height: 100%;
-	background-size: cover;
+	
 
 }
 
