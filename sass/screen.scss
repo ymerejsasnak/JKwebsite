@@ -4,3 +4,49 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+
+
+body {
+	background: linear-gradient(#444, #222);
+  height: 100vh;
+}
+
+#main-container {
+	background-image: url(../img/paper.jpg);
+	margin-left: 8.33%;	
+	width: 83.33%;
+	height: 100%;
+	background-size: cover;
+
+}
+
+@font-face {
+	font-family: font1;
+	src: url("../fonts/Albertsthal Typewriter.ttf");
+}
+@font-face {
+	font-family: font2;
+	src: url("../fonts/Old Typewriter.ttf");
+}
+@font-face {
+	font-family: font3;
+	src: url(../fonts/1942.ttf);
+}
+
+h1 {
+	font-size: 40px;
+  font-family: font1;
+}
+h2 {
+	font-size: 40px;
+  font-family: font2;
+}
+h3 {
+	font-size: 40px;
+  font-family: font3;
+}
+#idea { /*like overlaid typewriter text!*/
+	position: relative;
+	top: -80px;
+}
