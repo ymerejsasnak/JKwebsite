@@ -7,6 +7,22 @@
 
 
 
+@font-face {
+	font-family: typewriter;
+	src: url("../fonts/Albertsthal Typewriter.ttf");
+}
+@font-face {
+	font-family: old-typewriter;
+	src: url("../fonts/Old Typewriter.ttf");
+}
+@font-face {
+	font-family: light-typewriter;
+	src: url(../fonts/1942.ttf);
+}
+
+
+
+
 body {
 	background-image: url(../img/grungypaper.jpg);
 	width: 100%;
@@ -14,39 +30,38 @@ body {
 }
 
 #main-container {
-		margin-left: 8.33%;	
+	background-image: url(../img/whitegrungypaper.jpg);
+	transform: rotate(-2deg);
+	margin-left: 8.33%;	
 	width: 83.33%;
 	height: 100%;
-	
 
+	padding: 5%;
 }
 
-@font-face {
-	font-family: font1;
-	src: url("../fonts/Albertsthal Typewriter.ttf");
-}
-@font-face {
-	font-family: font2;
-	src: url("../fonts/Old Typewriter.ttf");
-}
-@font-face {
-	font-family: font3;
-	src: url(../fonts/1942.ttf);
-}
+
+
+
+
 
 h1 {
 	font-size: 40px;
-  font-family: font1;
+  font-family: typewriter;
 }
 h2 {
 	font-size: 40px;
-  font-family: font2;
+  font-family: old-typewriter;
 }
 h3 {
 	font-size: 40px;
-  font-family: font3;
+  font-family: light-typewriter;
 }
 #idea { /*like overlaid typewriter text!*/
 	position: relative;
-	top: -80px;
+	top: -40px;
+}
+pre {
+	font-size: 14px;
+	font-family: typewriter;
+	font-weight: bold;
 }

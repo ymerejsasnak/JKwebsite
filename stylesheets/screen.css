@@ -67,53 +67,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 10, ../sass/screen.scss */
+@font-face {
+  font-family: typewriter;
+  src: url("../fonts/Albertsthal Typewriter.ttf");
+}
+@font-face {
+  font-family: old-typewriter;
+  src: url("../fonts/Old Typewriter.ttf");
+}
+@font-face {
+  font-family: light-typewriter;
+  src: url(../fonts/1942.ttf);
+}
+/* line 26, ../sass/screen.scss */
 body {
   background-image: url(../img/grungypaper.jpg);
   width: 100%;
   height: 100vh;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 #main-container {
+  background-image: url(../img/whitegrungypaper.jpg);
+  transform: rotate(-2deg);
   margin-left: 8.33%;
   width: 83.33%;
   height: 100%;
+  padding: 5%;
 }
 
-@font-face {
-  font-family: font1;
-  src: url("../fonts/Albertsthal Typewriter.ttf");
-}
-@font-face {
-  font-family: font2;
-  src: url("../fonts/Old Typewriter.ttf");
-}
-@font-face {
-  font-family: font3;
-  src: url(../fonts/1942.ttf);
-}
-/* line 37, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 h1 {
   font-size: 40px;
-  font-family: font1;
+  font-family: typewriter;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 h2 {
   font-size: 40px;
-  font-family: font2;
+  font-family: old-typewriter;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 h3 {
   font-size: 40px;
-  font-family: font3;
+  font-family: light-typewriter;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #idea {
   /*like overlaid typewriter text!*/
   position: relative;
-  top: -80px;
+  top: -40px;
+}
+
+/* line 63, ../sass/screen.scss */
+pre {
+  font-size: 14px;
+  font-family: typewriter;
+  font-weight: bold;
 }
