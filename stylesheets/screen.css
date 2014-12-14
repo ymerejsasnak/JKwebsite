@@ -94,21 +94,27 @@ header {
   text-align: center;
   transform: rotate(-1deg);
 }
+/* line 51, ../sass/screen.scss */
+header span {
+  position: relative;
+  top: 0.2em;
+}
 
-/* line 53, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 h1 {
   font-family: old-typewriter;
   font-size: 3em;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 h3 {
   font-family: typewriter;
   font-size: 2em;
   font-weight: bold;
+  transform: rotate(1deg);
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 nav {
   background-image: url(../img/paper.jpg);
   width: 8.3333%;
@@ -124,35 +130,35 @@ nav {
   box-shadow: 2px 2px 10px black;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .nav-link {
   color: black;
   transition: color 1s;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .nav-link:hover {
   color: darkred;
   transition: color 0.5s;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 li:nth-child(odd) {
   transform: rotate(-5deg);
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 li:nth-child(4) {
   transform: rotate(-10deg);
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .text-over {
   position: absolute;
   top: 7em;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #content {
   background-image: url(../img/whitegrungypaper.jpg);
   width: 83.333%;
@@ -162,7 +168,7 @@ li:nth-child(4) {
   box-shadow: 2px 2px 10px black;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 footer {
   width: 83.333%;
   margin-left: 8.3333%;
@@ -173,7 +179,7 @@ footer {
   font-weight: bold;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .odd-bottom {
   position: relative;
   top: -1em;
