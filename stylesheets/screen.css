@@ -79,51 +79,104 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: light-typewriter;
   src: url(../fonts/1942.ttf);
 }
-/* line 26, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 body {
   background-image: url(../img/grungypaper.jpg);
   width: 100%;
   height: 100vh;
 }
 
-/* line 32, ../sass/screen.scss */
-#main-container {
-  background-image: url(../img/whitegrungypaper.jpg);
-  transform: rotate(-2deg);
-  margin-left: 8.33%;
-  width: 83.33%;
-  height: 100%;
-  padding: 5%;
+/* line 46, ../sass/screen.scss */
+header {
+  width: 83.333%;
+  margin-left: 8.3333%;
+  margin-top: 2%;
+  text-align: center;
+  transform: rotate(-1deg);
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 h1 {
-  font-size: 40px;
-  font-family: typewriter;
-}
-
-/* line 51, ../sass/screen.scss */
-h2 {
-  font-size: 40px;
   font-family: old-typewriter;
+  font-size: 3em;
 }
 
-/* line 55, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 h3 {
-  font-size: 40px;
-  font-family: light-typewriter;
-}
-
-/* line 59, ../sass/screen.scss */
-#idea {
-  /*like overlaid typewriter text!*/
-  position: relative;
-  top: -40px;
-}
-
-/* line 63, ../sass/screen.scss */
-pre {
-  font-size: 14px;
   font-family: typewriter;
+  font-size: 2em;
   font-weight: bold;
+}
+
+/* line 67, ../sass/screen.scss */
+nav {
+  background-image: url(../img/paper.jpg);
+  width: 8.3333%;
+  float: left;
+  margin-left: 4.16665%;
+  margin-top: 5%;
+  padding: 1%;
+  transform: rotate(1deg);
+  font-family: old-typewriter;
+  font-size: 1em;
+  line-height: 2em;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 10px black;
+}
+
+/* line 86, ../sass/screen.scss */
+.nav-link {
+  color: black;
+  transition: color 1s;
+}
+
+/* line 91, ../sass/screen.scss */
+.nav-link:hover {
+  color: darkred;
+  transition: color 0.5s;
+}
+
+/* line 96, ../sass/screen.scss */
+li:nth-child(odd) {
+  transform: rotate(-5deg);
+}
+
+/* line 100, ../sass/screen.scss */
+li:nth-child(4) {
+  transform: rotate(-10deg);
+}
+
+/* line 104, ../sass/screen.scss */
+.text-over {
+  position: absolute;
+  top: 7em;
+}
+
+/* line 113, ../sass/screen.scss */
+#content {
+  background-image: url(../img/whitegrungypaper.jpg);
+  width: 83.333%;
+  margin-left: 8.3333%;
+  height: 75%;
+  margin-top: 1%;
+  box-shadow: 2px 2px 10px black;
+}
+
+/* line 126, ../sass/screen.scss */
+footer {
+  width: 83.333%;
+  margin-left: 8.3333%;
+  font-family: light-typewriter;
+  text-align: center;
+  padding: 2%;
+  transform: rotate(1deg);
+  font-weight: bold;
+}
+
+/* line 135, ../sass/screen.scss */
+.odd-bottom {
+  position: relative;
+  top: -1em;
+  transform: rotate(-2deg);
+  font-weight: normal;
 }

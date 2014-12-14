@@ -24,9 +24,12 @@ go with mostly grayscale, paper background, typewriter fonts
 (maybe 2 or 3 layers of fonts so parts can be overlapped or uneven or whatever)
 try to keep links, effects, transitions etc naturalistic or unusual (but above all unobtrusive)
 SINGLE PAGE, SINGLE SCREEN (navigation will just make judicious use of append and remove)
-
+LINKS - need to differentiate...maybe they pulse red or something?
 
 
 ideas:
 style stories put on site itself in line with overall visual theme
-??maybe redo any little apps I put up there in same style too (ie make lights game fit in my site, make terrarium fit in my site, etc)ASS/Compass, fonts, etc<br>
+
+ eventually add js to make text (at least header) randomly weird!-gets more random more you click, make function for this that can be called as part of any action...start it off mostly normal...never 100% the same from beginning though...run this on other elements too? -->
+
+ use a screen size or content div size black div and transform alpha value on click/link to fade to black then back to change content

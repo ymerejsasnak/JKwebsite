@@ -6,7 +6,6 @@
 @import "compass/reset";
 
 
-
 @font-face {
 	font-family: typewriter;
 	src: url("../fonts/Albertsthal Typewriter.ttf");
@@ -20,6 +19,21 @@
 	src: url(../fonts/1942.ttf);
 }
 
+@mixin shadow {
+	box-shadow: 2px 2px 10px black;
+}
+
+@mixin centered {
+  width: $column * 10;
+	margin-left: $column;
+}
+
+$column: 8.3333%;
+$link-color: darkred;
+
+
+
+
 
 
 
@@ -29,39 +43,98 @@ body {
 	height: 100vh;
 }
 
-#main-container {
-	background-image: url(../img/whitegrungypaper.jpg);
-	transform: rotate(-2deg);
-	margin-left: 8.33%;	
-	width: 83.33%;
-	height: 100%;
-
-	padding: 5%;
+header {
+	@include centered;
+	margin-top: 2%;
+	text-align: center;
+	transform: rotate(-1deg);
 }
-
-
-
-
-
 
 h1 {
-	font-size: 40px;
-  font-family: typewriter;
+	font-family: old-typewriter;
+	font-size: 3em;
 }
-h2 {
-	font-size: 40px;
-  font-family: old-typewriter;
-}
+
 h3 {
-	font-size: 40px;
-  font-family: light-typewriter;
-}
-#idea { /*like overlaid typewriter text!*/
-	position: relative;
-	top: -40px;
-}
-pre {
-	font-size: 14px;
 	font-family: typewriter;
+	font-size: 2em;
 	font-weight: bold;
+}
+
+
+
+
+nav {
+	background-image: url(../img/paper.jpg);
+	width: $column;
+
+	float: left;
+	
+	margin-left: $column * 0.5;
+	margin-top: 5%;
+	padding: 1%;
+	transform: rotate(1deg);
+
+	font-family: old-typewriter;
+	font-size: 1em;
+	line-height: 2em;
+
+	border: 1px solid gray;
+	@include shadow;
+}
+
+.nav-link {
+	color: black;
+	transition: color 1s;
+}
+
+.nav-link:hover {
+	color: $link-color;
+	transition: color 0.5s;
+}
+
+li:nth-child(odd) {
+	transform: rotate(-5deg);
+}
+
+li:nth-child(4) {
+	transform: rotate(-10deg);
+}
+
+.text-over {
+	position: absolute;
+	top: 7em;
+}
+
+
+
+
+
+#content {
+	background-image: url(../img/whitegrungypaper.jpg);
+	@include centered;
+	height: 75%;
+	margin-top: 1%;
+  
+	@include shadow;
+}
+
+
+
+
+
+footer {
+	@include centered;
+	font-family: light-typewriter;
+	text-align: center;
+	padding: 2%;
+	transform: rotate(1deg);
+	font-weight: bold;
+}
+
+.odd-bottom {
+	position: relative;
+	top: -1em;
+	transform: rotate(-2deg);
+	font-weight: normal;
 }
