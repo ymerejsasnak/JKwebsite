@@ -91,7 +91,7 @@ header {
   width: 83.333%;
   margin-left: 8.3333%;
   margin-right: 8.3333%;
-  margin-top: 2%;
+  padding-top: 2%;
   text-align: center;
   transform: rotate(-1deg);
 }
@@ -115,7 +115,7 @@ h3 {
   transform: rotate(1deg);
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 nav {
   background-image: url(../img/paper.jpg);
   width: 12.49995%;
@@ -131,36 +131,36 @@ nav {
   box-shadow: 2px 2px 10px black;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .nav-link {
   color: black;
   transition: color 2s ease;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .nav-link:hover {
-  color: blue;
+  color: darkred;
   transition: color 0.3s;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 li:nth-child(odd) {
   transform: rotate(-5deg);
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 li:nth-child(4) {
   transform: rotate(-10deg);
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .text-over {
   position: absolute;
   top: 7em;
 }
 
-/* line 119, ../sass/screen.scss */
-#content {
+/* line 121, ../sass/screen.scss */
+#content-bg {
   background-image: url(../img/whitegrungypaper.jpg);
   width: 83.333%;
   margin-left: 8.3333%;
@@ -170,42 +170,42 @@ li:nth-child(4) {
   box-shadow: 2px 2px 10px black;
 }
 
-/* line 129, ../sass/screen.scss */
-section {
-  font-family: typewriter;
-  font-size: 1.2em;
+/* line 131, ../sass/screen.scss */
+#content {
   margin-left: 16.6666%;
   margin-right: 16.6666%;
-  padding-top: 10%;
-  line-height: 1.5em;
-  transition: transform 30s ease;
-  transform: rotate(0deg);
+  width: 66.6664%;
+  position: relative;
+  top: 10%;
+  height: 80%;
+  overflow-y: scroll;
 }
 
 /* line 143, ../sass/screen.scss */
-section:hover {
-  transform: rotate(5deg);
-  transition: transform 30s ease;
+section {
+  font-family: typewriter;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 sub {
   vertical-align: sub;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 sup {
   vertical-align: super;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 footer {
   width: 83.333%;
   margin-left: 8.3333%;
   margin-right: 8.3333%;
   font-family: light-typewriter;
   text-align: center;
-  padding: 2%;
+  padding-bottom: 2%;
   transform: rotate(181deg);
   font-weight: bold;
 }

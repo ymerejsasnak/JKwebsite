@@ -30,7 +30,7 @@
 }
 
 $column: 8.3333%;
-$link-color: blue;
+$link-color: darkred;
 
 
 
@@ -46,7 +46,7 @@ body {
 
 header {
 	@include centered;
-	margin-top: 2%;
+	padding-top: 2%;
 	text-align: center;
 	transform: rotate(-1deg);
 	span {
@@ -66,6 +66,7 @@ h3 {
 	font-weight: bold;
 	transform: rotate(1deg);
 }
+
 
 
 
@@ -116,7 +117,8 @@ li:nth-child(4) {
 
 
 
-#content {
+
+#content-bg {
 	background-image: url(../img/whitegrungypaper.jpg);
 	@include centered;
 	height: 75%;
@@ -126,23 +128,22 @@ li:nth-child(4) {
 }
 
 
-section {
-	font-family: typewriter;
-	font-size: 1.2em;
+#content {
 	margin-left: $column * 2;
 	margin-right: $column * 2;
-	padding-top: 10%;
-	line-height: 1.5em;
+	width: $column * 8;
+
+  position: relative;
+	top: 10%;
+	height: 80%;
 	
-	transition: transform 30s ease;
-  transform: rotate(0deg);
+  overflow-y: scroll;
 }
 
-
-
-section:hover {
-	transform: rotate(5deg);
-	transition: transform 30s ease;
+section{
+	font-family: typewriter;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 sub {
@@ -157,11 +158,12 @@ sup {
 
 
 
+
 footer {
 	@include centered;
 	font-family: light-typewriter;
 	text-align: center;
-	padding: 2%;
+	padding-bottom: 2%;
 	transform: rotate(181deg);
 	font-weight: bold;
 }
