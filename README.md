@@ -5,7 +5,12 @@ going to use this as an opportunity to practice as much as possible<br>
 but especially practice stuff I haven't used much/at all: media queries, transitions, grid layout,
 
 
-NOTES:  need to chop up paper jpgs and definitely make them SMALLER FILE SIZE!!!! but still good looking
+TO DO: 
+get yellowed paper pieces again and chop up and make transparent
+make all img as small as possible filesize-wise
+make content pages (fill with lorem for now)
+start programming UI (jquery stuff mostly)
+make the JS stuff that will randomize the text
 
 
  content:
@@ -33,3 +38,5 @@ style stories put on site itself in line with overall visual theme
  eventually add js to make text (at least header) randomly weird!-gets more random more you click, make function for this that can be called as part of any action...start it off mostly normal...never 100% the same from beginning though...run this on other elements too? -->
 
  use a screen size or content div size black div and transform alpha value on click/link to fade to black then back to change content
+
+ text that rotates? (when clicked or constantly or what?  just pieces of words or???)

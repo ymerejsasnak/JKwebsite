@@ -26,10 +26,11 @@
 @mixin centered {
   width: $column * 10;
 	margin-left: $column;
+	margin-right: $column;
 }
 
 $column: 8.3333%;
-$link-color: darkred;
+$link-color: blue;
 
 
 
@@ -71,7 +72,7 @@ h3 {
 
 nav {
 	background-image: url(../img/paper.jpg);
-	width: $column;
+	width: $column * 1.5;
 
 	float: left;
 	
@@ -81,7 +82,7 @@ nav {
 	transform: rotate(1deg);
 
 	font-family: old-typewriter;
-	font-size: 1em;
+	font-size: 1.5em;
 	line-height: 2em;
 
 	border: 1px solid gray;
@@ -120,8 +121,36 @@ li:nth-child(4) {
 	@include centered;
 	height: 75%;
 	margin-top: 1%;
-  
+	 
 	@include shadow;
+}
+
+
+section {
+	font-family: typewriter;
+	font-size: 1.2em;
+	margin-left: $column * 2;
+	margin-right: $column * 2;
+	padding-top: 10%;
+	line-height: 1.5em;
+	
+	transition: transform 30s ease;
+  transform: rotate(0deg);
+}
+
+
+
+section:hover {
+	transform: rotate(5deg);
+	transition: transform 30s ease;
+}
+
+sub {
+	vertical-align: sub;
+}
+
+sup {
+	vertical-align: super;
 }
 
 
@@ -136,3 +165,7 @@ footer {
 	transform: rotate(181deg);
 	font-weight: bold;
 }
+
+
+
+
