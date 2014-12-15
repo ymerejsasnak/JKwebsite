@@ -90,12 +90,12 @@ nav {
 
 .nav-link {
 	color: black;
-	transition: color 1s;
+	transition: color 2s ease;
 }
 
 .nav-link:hover {
 	color: $link-color;
-	transition: color 0.5s;
+	transition: color 0.3s;
 }
 
 li:nth-child(odd) {
@@ -133,13 +133,6 @@ footer {
 	font-family: light-typewriter;
 	text-align: center;
 	padding: 2%;
-	transform: rotate(1deg);
+	transform: rotate(181deg);
 	font-weight: bold;
-}
-
-.odd-bottom {
-	position: relative;
-	top: -1em;
-	transform: rotate(-2deg);
-	font-weight: normal;
 }

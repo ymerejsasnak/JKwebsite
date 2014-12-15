@@ -133,13 +133,13 @@ nav {
 /* line 91, ../sass/screen.scss */
 .nav-link {
   color: black;
-  transition: color 1s;
+  transition: color 2s ease;
 }
 
 /* line 96, ../sass/screen.scss */
 .nav-link:hover {
   color: darkred;
-  transition: color 0.5s;
+  transition: color 0.3s;
 }
 
 /* line 101, ../sass/screen.scss */
@@ -175,14 +175,6 @@ footer {
   font-family: light-typewriter;
   text-align: center;
   padding: 2%;
-  transform: rotate(1deg);
+  transform: rotate(181deg);
   font-weight: bold;
-}
-
-/* line 140, ../sass/screen.scss */
-.odd-bottom {
-  position: relative;
-  top: -1em;
-  transform: rotate(-2deg);
-  font-weight: normal;
 }
