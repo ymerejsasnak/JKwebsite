@@ -44,6 +44,7 @@ body {
 	height: 100vh;
 }
 
+
 header {
 	@include centered;
 	padding-top: 2%;
@@ -132,6 +133,7 @@ li:nth-child(4) {
 
 
 #content {
+	
 	margin-left: $column * 2;
 	margin-right: $column * 2;
 	width: $column * 8;
@@ -144,9 +146,15 @@ li:nth-child(4) {
 }
 
 section{
-	font-family: typewriter;
+
+	font-family: courier;
   font-size: 1.2em;
   line-height: 1.5em;
+  
+  h2 {
+  	font-family: old-typewriter;
+  	text-align: center;
+  }
 }
 
 sub {
@@ -155,6 +163,16 @@ sub {
 
 sup {
 	vertical-align: super;
+}
+
+.tilt-left {
+	display: inline-block;
+	transform: rotate(-5deg);
+}
+
+.tilt-right {
+	display: inline-block;
+	transform: rotate(5deg);
 }
 
 

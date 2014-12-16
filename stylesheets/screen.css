@@ -86,7 +86,7 @@ body {
   height: 100vh;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 header {
   width: 83.333%;
   margin-left: 8.3333%;
@@ -95,19 +95,19 @@ header {
   text-align: center;
   transform: rotate(-1deg);
 }
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 header span {
   position: relative;
   top: 0.2em;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 h1 {
   font-family: old-typewriter;
   font-size: 3em;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 h3 {
   font-family: typewriter;
   font-size: 2em;
@@ -115,7 +115,7 @@ h3 {
   transform: rotate(1deg);
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 nav {
   background-image: url(../img/paper.jpg);
   width: 12.49995%;
@@ -131,35 +131,35 @@ nav {
   box-shadow: 2px 2px 10px black;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .nav-link {
   color: black;
   transition: color 2s ease;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .nav-link:hover {
   color: darkred;
   transition: color 0.3s;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 li:nth-child(odd) {
   transform: rotate(-5deg);
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 li:nth-child(4) {
   transform: rotate(-10deg);
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .text-over {
   position: absolute;
   top: 7em;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #content-bg {
   background-image: url(../img/whitegrungypaper.jpg);
   width: 83.333%;
@@ -171,7 +171,7 @@ li:nth-child(4) {
 }
 
 /*this is the black div that fades in to cover content area during transitions*/
-/* line 134, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #content {
   margin-left: 16.6666%;
   margin-right: 16.6666%;
@@ -182,24 +182,41 @@ li:nth-child(4) {
   overflow-y: auto;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 section {
-  font-family: typewriter;
+  font-family: courier;
   font-size: 1.2em;
   line-height: 1.5em;
 }
+/* line 154, ../sass/screen.scss */
+section h2 {
+  font-family: old-typewriter;
+  text-align: center;
+}
 
-/* line 152, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 sub {
   vertical-align: sub;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 sup {
   vertical-align: super;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
+.tilt-left {
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+
+/* line 173, ../sass/screen.scss */
+.tilt-right {
+  display: inline-block;
+  transform: rotate(5deg);
+}
+
+/* line 183, ../sass/screen.scss */
 footer {
   width: 83.333%;
   margin-left: 8.3333%;
