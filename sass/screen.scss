@@ -125,7 +125,10 @@ li:nth-child(4) {
 	margin-top: 1%;
 	 
 	@include shadow;
+
 }
+
+/*this is the black div that fades in to cover content area during transitions*/
 
 
 #content {
@@ -137,7 +140,7 @@ li:nth-child(4) {
 	top: 10%;
 	height: 80%;
 	
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 section{

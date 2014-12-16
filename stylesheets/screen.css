@@ -170,7 +170,8 @@ li:nth-child(4) {
   box-shadow: 2px 2px 10px black;
 }
 
-/* line 131, ../sass/screen.scss */
+/*this is the black div that fades in to cover content area during transitions*/
+/* line 134, ../sass/screen.scss */
 #content {
   margin-left: 16.6666%;
   margin-right: 16.6666%;
@@ -178,27 +179,27 @@ li:nth-child(4) {
   position: relative;
   top: 10%;
   height: 80%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 section {
   font-family: typewriter;
   font-size: 1.2em;
   line-height: 1.5em;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 sub {
   vertical-align: sub;
 }
 
-/* line 153, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 sup {
   vertical-align: super;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 footer {
   width: 83.333%;
   margin-left: 8.3333%;
