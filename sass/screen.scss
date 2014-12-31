@@ -129,7 +129,6 @@ li:nth-child(4) {
 
 }
 
-/*this is the black div that fades in to cover content area during transitions*/
 
 
 #content {
@@ -157,22 +156,15 @@ section{
   }
 }
 
-sub {
-	vertical-align: sub;
-}
-
-sup {
-	vertical-align: super;
-}
 
 .tilt-left {
 	display: inline-block;
-	transform: rotate(-5deg);
+	transform: rotate(-3deg);
 }
 
 .tilt-right {
 	display: inline-block;
-	transform: rotate(5deg);
+	transform: rotate(3deg);
 }
 
 
