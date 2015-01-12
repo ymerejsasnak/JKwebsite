@@ -23,16 +23,17 @@ html, body {
 header {
   background-image: url(../img/whitegrungypaper.jpg);
   height: 10%;
-  width: 100%;
+  width: 98%;
   padding: 1%;
   text-align: center;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 50px black;
 }
 
 header h1 {
   font-family: old-typewriter;
   font-size: 2em;
   transform: rotate(1deg);
+  text-shadow: 5px 5px 10px black;
 }
 
 
@@ -46,13 +47,13 @@ nav {
   margin: 0.5%;
   display: inline-block;
   color: black;
-  text-shadow: none;
+  text-shadow: 3px 3px 5px black;
   transition: color 0.6s ease-in, text-shadow 0.6s ease-in;
 }
 
 .nav-link:hover {
   color: darkred;
-  text-shadow: 0 0 5px darkred;
+  text-shadow: 0 0 10px darkred;
   cursor: pointer;
   transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
 }
@@ -67,9 +68,10 @@ li:nth-child(4) {
 
 
 #content-bg {
+  box-sizing: border-box;
   height: 85%;
   width: 100%;
-  background: url(../img/paper.jpg);
+  padding-top: 1%;  
   background-size: cover;
   overflow-y: scroll;
 }
@@ -91,15 +93,4 @@ section h2 {
   font-size: 2em;
   text-align: center;
 }
-
-.tilt-left {
-  display: inline-block;
-  transform: rotate(-3deg);
-}
-
-.tilt-right {
-  display: inline-block;
-  transform: rotate(3deg);
-}
-
 
