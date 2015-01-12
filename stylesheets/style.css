@@ -1,0 +1,105 @@
+@font-face {
+  font-family: typewriter;
+  src: url("../fonts/Albertsthal Typewriter.ttf");
+}
+@font-face {
+  font-family: old-typewriter;
+  src: url("../fonts/Old Typewriter.ttf");
+}
+@font-face {
+  font-family: light-typewriter;
+  src: url(../fonts/1942.ttf);
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+
+
+
+header {
+  background-image: url(../img/whitegrungypaper.jpg);
+  height: 10%;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  box-shadow: 0 0 5px black;
+}
+
+header h1 {
+  font-family: old-typewriter;
+  font-size: 2em;
+  transform: rotate(1deg);
+}
+
+
+nav {
+  transform: rotate(-1deg);
+  font-family: typewriter;
+  font-size: 2em;
+}
+
+.nav-link {
+  margin: 0.5%;
+  display: inline-block;
+  color: black;
+  text-shadow: none;
+  transition: color 0.6s ease-in, text-shadow 0.6s ease-in;
+}
+
+.nav-link:hover {
+  color: darkred;
+  text-shadow: 0 0 5px darkred;
+  cursor: pointer;
+  transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
+}
+
+li:nth-child(odd) {
+  transform: rotate(5deg);
+}
+
+li:nth-child(4) {
+  transform: rotate(-10deg);
+}
+
+
+#content-bg {
+  height: 85%;
+  width: 100%;
+  background: url(../img/paper.jpg);
+  background-size: cover;
+  overflow-y: scroll;
+}
+
+#content {
+  margin-left: 16.6666%;
+  width: 66.6664%;
+
+}
+
+section p {
+  font-family: courier;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+section h2 {
+  font-family: light-typewriter;
+  font-size: 2em;
+  text-align: center;
+}
+
+.tilt-left {
+  display: inline-block;
+  transform: rotate(-3deg);
+}
+
+.tilt-right {
+  display: inline-block;
+  transform: rotate(3deg);
+}
+
+
