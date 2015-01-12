@@ -1,3 +1,15 @@
+ [[idea: have little 'don't click here', if you do it runs my snow2 sliming thing over whole page (canvas overlaid)
+    [[another idea: button that goes to alternate style (8bit msdos retro sort of look) but with exact same content (prob just load new html/css files)
+
+
+
+
+[[[[REDESIGN!!!!!!!!]]]]
+
+
+
+
+
 starting the long slow process of creating my web site<br>
 
 going to use this as an opportunity to practice as much as possible<br>
