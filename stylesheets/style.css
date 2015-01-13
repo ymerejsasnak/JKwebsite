@@ -21,30 +21,30 @@ html, body {
 
 
 header {
+  box-sizing: border-box;
   background-image: url(../img/whitegrungypaper.jpg);
-  height: 10%;
-  width: 98%;
-  padding: 1%;
+  height: 13%;
+  width: 100%;
+  padding: 0.5%;
   text-align: center;
-  box-shadow: 0 0 50px black;
+  border-bottom: 5px solid black;
 }
 
 header h1 {
   font-family: old-typewriter;
-  font-size: 2em;
-  transform: rotate(1deg);
-  text-shadow: 5px 5px 10px black;
+  font-size: 1.9em;
+  text-shadow: 5px 5px 10px darkred;
 }
 
 
 nav {
   transform: rotate(-1deg);
   font-family: typewriter;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .nav-link {
-  margin: 0.5%;
+  margin: 1%;
   display: inline-block;
   color: black;
   text-shadow: 3px 3px 5px black;
@@ -67,30 +67,64 @@ li:nth-child(4) {
 }
 
 
+
+
+
 #content-bg {
-  box-sizing: border-box;
-  height: 85%;
+  height: 87%;
   width: 100%;
-  padding-top: 1%;  
-  background-size: cover;
-  overflow-y: scroll;
+  background: linear-gradient(#EEE, #999);
+  
 }
 
 #content {
+  box-sizing: border-box;
   margin-left: 16.6666%;
   width: 66.6664%;
+  height: 100%;
+  background: linear-gradient(#FEE, #EDD);
+  padding: 1%;
+  text-align: justify;
+  box-shadow: 0 10px 50px black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
 
-}
-
-section p {
-  font-family: courier;
-  font-size: 1.2em;
-  line-height: 1.5em;
+  overflow-y: scroll;
 }
 
 section h2 {
   font-family: light-typewriter;
   font-size: 2em;
   text-align: center;
+  text-shadow: 1px 1px 5px black;
+  padding-bottom: 1%;  
+  margin-bottom: 2%;
+  border-bottom: 2px solid black;
+}
+
+
+section section {
+  box-sizing: border-box;
+  padding: 1%;
+  margin-bottom: 1%;
+  border: 3px solid black;
+  border-radius: 1%/50%;
+  background: white;
+}
+
+section h4 {
+  font-family: light-typewriter;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #400;
+  padding-bottom: 1%;  
+  border-bottom: 1px solid black;
+}
+
+section p {
+  font-family: courier;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  padding-top: 0.5em;
 }
 
