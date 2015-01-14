@@ -3,7 +3,7 @@
 
 
 
-
+[[[thought: 1st section in each content page should be a little intro?  or save all that for the bio?]]]
 
 
 

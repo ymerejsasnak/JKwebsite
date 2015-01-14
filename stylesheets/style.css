@@ -23,24 +23,34 @@ html, body {
 header {
   box-sizing: border-box;
   background-image: url(../img/whitegrungypaper.jpg);
-  height: 13%;
+  height: 15%;
   width: 100%;
   padding: 0.5%;
   text-align: center;
   border-bottom: 5px solid black;
+  font-family: old-typewriter;
 }
 
 header h1 {
-  font-family: old-typewriter;
   font-size: 1.9em;
-  text-shadow: 5px 5px 10px darkred;
+  text-shadow: 3px 3px 5px darkred;
 }
+
+header h3 {
+  font-family: typewriter;
+  padding-top: 0.5%;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px darkred;
+}
+
+
+
 
 
 nav {
   transform: rotate(-1deg);
   font-family: typewriter;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 
 .nav-link {
@@ -71,7 +81,7 @@ li:nth-child(4) {
 
 
 #content-bg {
-  height: 87%;
+  height: 85%;
   width: 100%;
   background: linear-gradient(#EEE, #999);
   
