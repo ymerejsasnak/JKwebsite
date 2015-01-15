@@ -12,6 +12,18 @@ $(document).ready(function() {
   });
 
 
+  $("#slimer").on("click", function() {
+    $("#canvas").show();
+    $.getScript("js/slime.js");
+  });
+
+  $("#canvas").on("click", function() {
+    $(this).hide();
+    $("script").last().remove();
+  });
+
+
+
 });
 
 

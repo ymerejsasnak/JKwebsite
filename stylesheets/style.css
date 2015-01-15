@@ -140,23 +140,55 @@ section p {
   padding-top: 0.5em;
 }
 
-p strong {
+p strong, p b {
   font-weight: bold;
   color: black;
 }
 
-p a {
+p em {
+  font-style: italic;
+}
+
+p a, li a {
   color: darkred;
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
 }
 
-p a:hover {
+p a:hover, li a:hover{
   text-decoration: underline;
   text-shadow: 1px 1px 2px darkred;
 }
 
-p a:active {
+p a:active, li a:active {
   color: red;
 }
 
+li a {
+  margin-left: 1%;
+}
+
+
+
+
+
+
+
+#slimer {
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+#slimer:hover {
+  text-decoration: underline;
+}
+
+#canvas {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

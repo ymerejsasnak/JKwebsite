@@ -3,18 +3,13 @@
 
 
 
-[[[thought: 1st section in each content page should be a little intro?  or save all that for the bio?]]]
 
 
+###to do
+* slimer - make sure it works, clean up code
+* main - mostly fine for now
+* apps - work on portfolio and add stuff asap!
+* music - put better tracks online and add them to page
+* stories - add anatomy (in what format?  make it a pdf?) at least for now
+* blog - just leave it for now
 
-
-TO DO: 
-!!start filling in content -- then figure out design of content parts (each item/entry/post/whatever is new section within wrapping section)
--add seperate link to good example web pages I've made too? (for portfolio purposes)
--add link to my github on about, maybe other stuff just for fun like goodreads, etc.
-
-
-
-remember:::::!!!!!!!!!!!!!!!!!
-
-  python -m SimpleHTTPServer
