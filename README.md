@@ -1,15 +1,16 @@
- [[idea: have little 'don't click here', if you do it runs my snow2 sliming thing over whole page (canvas overlaid)
-    [[another idea: button that goes to alternate style (8bit msdos retro sort of look) but with exact same content (prob just load new html/css files)
-
-
-
 
 
 ###to do
-* slimer - make sure it works, clean up code
+* slimer - make sure this is working correctly
 * main - mostly fine for now
 * apps - work on portfolio and add stuff asap!
-* music - put better tracks online and add them to page
+* music - put better tracks on bandcamp and add them to page (and maybe embed songs in page instead of link)
 * stories - add anatomy (in what format?  make it a pdf?) at least for now
 * blog - just leave it for now
+* bio - mostly fine, add bandcamp link, add resume once it's done, add 'contactme' link (set up email on my new domain???)
+
+
+###issues:
+* keep working on header responsiveness (use media queries)
+* rest of site looks ok on tablet, maybe just have media query to get rid of margins, then test on phone too
 

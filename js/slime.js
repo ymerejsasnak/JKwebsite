@@ -66,7 +66,3 @@ function drawParticles() {
 
 
 
-
-
-
-window.requestAnimationFrame(loop);
