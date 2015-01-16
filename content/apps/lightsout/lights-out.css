@@ -1,0 +1,121 @@
+body {
+	background: linear-gradient(#eee, #777);
+	height: 100vh;
+}
+
+#sidebar {
+	float: left;
+	width: 25%;
+	height: 75%;
+  margin-top: 5%;
+}
+
+#moves, #pattern, #mode {
+	padding: 1%;
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 42%;
+  font-size: 1.3vmax;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px black;
+  background: white;
+  text-align: center;
+}
+
+#pattern span {
+	color: blue;
+	font-family: Arial, sans-serif;
+}
+
+#mode span {
+	color: red;
+}
+
+#size-select-container {
+	text-align: center;
+	font-size: 1.3vmax;
+	margin: 0 auto;
+	margin-top: 8%;
+	padding: 3%;
+	width: 50%;
+	background: linear-gradient(#eee, #ccc);
+	border: 1px solid black;
+	box-shadow: 1px 1px 2px black;
+}
+
+option {
+	font-size: 1.3vmax;
+}
+
+#grid-size {
+	width: 41%;
+}
+
+button {
+	display: block;
+	font-size: 1.3vmax;
+	margin: 0 auto;
+	margin-top: 8%;
+	padding: 5%;
+	width: 50%;
+	background: linear-gradient(#fff, #ddd);
+	border: 1px solid black;
+	border-radius: 15%;
+	box-shadow: 1px 1px 2px black;
+}
+
+button:hover {
+	border: 1px solid white;
+}
+
+button:active {
+	background: darkgray;
+}
+
+
+#grid-container {
+	float: left;
+	margin: 5% auto;
+	width: 50%;
+	height: 75%;
+}
+
+
+.light-cell {
+	display: inline-block;
+	border-radius: 20%;
+	box-shadow: 5px 5px 10px black;
+  box-sizing: border-box;
+  border: 1px solid black;
+  
+  
+	/*width and height now set in script*/
+}
+
+.light-cell:hover { 
+	border: 1px solid white;
+}
+
+
+
+.on {
+	background: linear-gradient(#fe2, #aa4);
+}
+
+.on2 {
+	background: linear-gradient(#882, #663);
+}
+
+.off {
+	background: linear-gradient(#111, #222);
+}
+
+
+#win-message {
+	clear: both;
+	text-align: center;
+	font-family: courier;
+	font-size: 40px; /*how can I get this to scale properly???? */
+	background: linear-gradient(#e48, #d34);
+	box-shadow: 0 0 10px white;
+}
