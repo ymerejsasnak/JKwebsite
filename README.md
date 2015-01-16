@@ -1,7 +1,7 @@
 
 
 ###to do
-* slimer - make sure this is working correctly
+* slimer - think it works right now
 * main - mostly fine for now
 * apps - work on portfolio and add stuff asap!
 * music - put better tracks on bandcamp and add them to page (and maybe embed songs in page instead of link)
@@ -13,8 +13,14 @@
 
 
 ###issues:
-* I broke the slimer!  how to fix it?!?!?
 * do certs load yet? --no?  maybe just put pdf <object> to load in seperate html file on seperate page
 * keep working on header responsiveness (use media queries)
 * rest of site looks ok on tablet, maybe just have media query to get rid of margins, then test on phone too
 
+
+
+####changes to upload:
+apps.html
+entire content/apps/ folder
+index.html and img/index.html
+UI.js and slime.js

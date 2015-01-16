@@ -7,12 +7,15 @@ var particles = [];
 var tick = 0;
 
 function loop() {
-	window.requestAnimationFrame(loop);
-	createParticles();
-	updateParticles();
-	killParticles();
-	drawParticles();
-	tick++;
+	//if statement to make sure it only runs when canvas is actually visible
+	if ($("#canvas").is(":visible")) {
+	  window.requestAnimationFrame(loop);
+  	createParticles();
+	  updateParticles();
+	  killParticles();
+	  drawParticles();
+	  tick++;
+	}
 }
 
 function createParticles() {
@@ -51,7 +54,7 @@ function killParticles() {
 }
 
 function drawParticles() {
-   
+
   for (var i in particles) {
   	var particle = particles[i];
   	c.beginPath();
@@ -65,4 +68,6 @@ function drawParticles() {
 
 
 
-
+c.clearRect(0, 0, canvas.width, canvas.height);
+$("#canvas").show();
+var animation = window.requestAnimationFrame(loop);

@@ -14,24 +14,22 @@ $(document).ready(function() {
 
   //show certificate
   $("#content").on("click", "li a", function() {
-    $(this).show();
+    $(this).next().show();
   });
   //hide cert
-  $("object").on("click", function() {
-    $(this).hide();
+  $("body").on("click", function() {
+    $("object").hide();
   });
 
 
   //start slime animation
-  var animation = 
-    $("#slimer").on("click", function() {
-      $("#canvas").show();
-      return window.requestAnimationFrame(loop);
-    });
+  $("#slimer").on("click", function() {
+    $.getScript("js/slime.js");
+  });
   //stop slime animation
   $("#canvas").on("click", function() {
     $(this).hide();
-    $("script").last().remove();
+    $(body).remove("script").last();
     window.cancelAnimationFrame(animation);
   });
 
