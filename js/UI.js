@@ -29,7 +29,7 @@ $(document).ready(function() {
   //stop slime animation
   $("#canvas").on("click", function() {
     $(this).hide();
-    $(body).remove("script").last();
+    $("body").remove("script").last();
     window.cancelAnimationFrame(animation);
   });
 
