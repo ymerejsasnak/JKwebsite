@@ -1,4 +1,4 @@
-
+CUT CERTS FROM PAGE!
 
 ###content
 * main - mostly fine for now
@@ -16,16 +16,12 @@
 
 
 ###issues:
-* find better solution to certs display?
 * keep working on header responsiveness (use media queries)
 * get rid of margins on smaller devices
 * slime doesn't work on phone??? (does it work on tablet?)
 
 
 
-####changes to upload:
-music.html
-stories.html
-bio.html
-anatomy....pdf
-move other pdfs to root/public folder (delte js2.pdf)   (temporary fix -- come up with better plan some other time)
+####changes on server:
+delete cert pdfs
+upload bio.html, snake folder, memory folder, apps.html, main.html

@@ -1,0 +1,124 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(#111, #222);
+}
+
+
+#status-box {
+	margin: 1% auto;
+}
+
+ul {
+	text-align: center;
+}
+li {
+	display: inline-block;
+	color: lightgray;
+	text-align: center;
+	margin: 0 1% 0 1%;
+	line-height: 1em;
+	font-size: 2em;
+}
+
+li span {
+	color: white;
+}
+
+
+
+
+
+#grid-container {
+	margin: 1% auto;
+	width: 60%;
+	height: 89%;
+	border: 1px solid black;
+	background: linear-gradient(#6B6, #7C7);
+}
+
+
+.cell {
+	float: left;
+	margin: 0;
+	width: 4%;
+  height: 4%;
+  text-align: center;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+.food {
+	background-image: url(apple.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-color: rgba(255, 0, 0, 0.2);
+	box-shadow: 0 0 10px red;
+}
+
+.segment {
+	background: url(tracks.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+
+.head {
+	background-image: url(kitty.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.danger {
+	box-shadow: 0 0 50px red;
+}
+
+.spike {
+	background-image: url(spikes.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.star1 {
+	background-image: url(star1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	box-shadow: 0 0 10px white;
+}
+
+
+
+
+
+#endgame{
+	display: none;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	width: 80%;
+	height: 20%;
+	background: white;
+	box-shadow: 0 0 25px white;
+}
+
+#endgame p {
+	font-size: 2em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+#playagain {
+	color: red;
+}

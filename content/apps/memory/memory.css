@@ -1,0 +1,63 @@
+body {
+  height: 90vh;
+}
+
+#game-board {
+	width: 90%;
+	height: 95%;
+	margin: 3% auto;
+	padding: 1%;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 3%;
+	box-shadow: 5px 5px 10px black;
+	background: linear-gradient(#A98, #CBA);
+}
+
+
+
+.card {
+	float: left;
+	width: 10.1%;
+	height: 15%;
+	margin: 0.5%;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 5%;
+	box-shadow: 1px 1px 5px black;
+	transition: transform 0.5s ease-in-out;
+}
+
+
+.face-down {
+	font-size: 0;
+	background: linear-gradient(#962, #852);
+}
+
+.face-down:hover {
+	border: 1px solid white;
+}
+
+.face-up {
+  color: black;
+  background: lightblue;
+  font-size: 3em;
+  text-align: center;
+  line-height: 2em;
+}
+
+
+
+
+#win {
+	display: none;
+	position: fixed;
+	top: 40%;
+	width: 100%;
+	height: 12%;
+	font-size: 3em;
+	line-height: 2em;
+	text-align: center;
+	background: white;
+	box-shadow: 2px 2px 20px black;
+}
