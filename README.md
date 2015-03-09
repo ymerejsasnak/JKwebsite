@@ -25,3 +25,5 @@ CUT CERTS FROM PAGE!
 ####changes on server:
 delete cert pdfs
 upload bio.html, snake folder, memory folder, apps.html, main.html
+
+

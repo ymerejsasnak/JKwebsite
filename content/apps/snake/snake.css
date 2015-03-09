@@ -54,7 +54,7 @@ li span {
 
 
 .food {
-	background-image: url(apple.png);
+	background-image: url(./apple.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -64,7 +64,7 @@ li span {
 }
 
 .segment {
-	background: url(tracks.png);
+	background: url(./tracks.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -72,7 +72,7 @@ li span {
 }
 
 .head {
-	background-image: url(kitty.png);
+	background-image: url(./kitty.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -83,14 +83,14 @@ li span {
 }
 
 .spike {
-	background-image: url(spikes.png);
+	background-image: url(./spikes.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .star1 {
-	background-image: url(star1.png);
+	background-image: url(./star1.png);
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
