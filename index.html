@@ -3,13 +3,21 @@
 
   <head>
     <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
-    <link href="stylesheets/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link href="stylesheets/style.css" rel="stylesheet"> 
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+   
     
     
-    <title>Jeremy Kansas</title>
+    <title>Jeremy Kansas: Developer, Writer, Musician, etc.</title>
 
 
    
@@ -18,30 +26,26 @@
   <body>
 
        
-    <header>  
-      <h1>Jeremy Kansas</h1>
-      <h3>
-        Web Developer, Writer, Musician, etc.
-      </h3>
+      
     
-      <nav>
-      <ul>
-        <li id="main" class="nav-link">News</li>
-        <li id="apps" class="nav-link">Web Portfolio</li>
-        <li id="music" class="nav-link">Music</li>
-        <li id="stories" class="nav-link">Stories</li>
-        <li id="blog" class="nav-link">Thoughts</li>
-        <li id="bio" class="nav-link">About</li>
+    <nav class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+      <ul class="pure-menu-list">
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link nav-link">Portfolio</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link nav-link">Music</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link nav-link">Stories</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link nav-link">Thoughts</a></li>
+          <li class="pure-menu-item"><a href="#" class="pure-menu-link nav-link">About</a></li>
+                              
       </ul>
-      </nav>
-    </header>
+    </nav>
+
 
 
     
 
 
-    <div id="content-bg"> 
-      <div id="content"></div>
+    <div class="pure-g" id="content-bg"> 
+      <div class="pure-u-1 pure-u-md-2-3" id="content"></div>
     </div>
 
    
@@ -58,3 +62,22 @@
   
   </body>
 </html>
+
+
+
+
+
+
+
+<!--  (cut stuff, saved here temp jic)
+  <nav>
+    <ul>
+      <li id="apps" class="nav-link">Portfolio</li>
+      <li id="music" class="nav-link">Music</li>
+      <li id="stories" class="nav-link">Stories</li>
+      <li id="blog" class="nav-link">Thoughts</li>
+      <li id="bio" class="nav-link">About</li>
+    </ul>
+    </nav>
+
+  -->

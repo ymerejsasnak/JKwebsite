@@ -1,7 +1,5 @@
-CUT CERTS FROM PAGE!
-
 ###content
-* main - mostly fine for now
+
 * apps - work on portfolio and add stuff asap!
 * music - mostly fine.  embed a sample song or two in page w/ bandcamp widget?
 * stories - fine for now. try to publish other 'finished stories' or just put here if I give up on subbing them
@@ -25,5 +23,7 @@ CUT CERTS FROM PAGE!
 ####changes on server:
 delete cert pdfs
 upload bio.html, snake folder, memory folder, apps.html, main.html
+
+(dunno about above, at this point should prob reupload everthing)
 
 

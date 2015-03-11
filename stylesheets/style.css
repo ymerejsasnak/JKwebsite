@@ -15,58 +15,38 @@
 
 html, body {
   height: 100%;
-  background-image: url(../img/paper.jpg);
-  background-size: cover;
   font-size: 1em;
+  color: #111;
 }
-
-
-
-
-header {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 0.5%;
-  text-align: center;
-  border-bottom: 4px solid black;
-  font-family: old-typewriter;
-  box-shadow: 0 0 20px black;
-}
-
-header h1 {
-  font-size: 1.8em;
-  text-shadow: 0 0 3px darkred;
-}
-
-header h3 {
-  font-family: typewriter;
-  padding-top: 0.5%;
-  font-size: 0.9em;
-  text-shadow: 1px 1px 2px darkred;
-}
-
-
-
 
 
 nav {
-  font-family: typewriter;
-  font-size: 1.4em;
-  margin: 0 auto;
+  position: fixed;
+
+  background: #EEE;
+  border-bottom: 1px solid #222;
+  box-shadow: 0 0 20px #111;
+
+  text-align: center;
+  font-family: old-typewriter;
+  
 }
 
 .nav-link {
-  margin: 0.5% 1%;
-  display: inline-block;
-  color: black;
+  font-family: typewriter;
+  font-size: 1.5em;
+  color: #111;
   text-shadow: 3px 3px 5px black;
+
   transition: color 0.6s ease-in, text-shadow 0.6s ease-in;
 }
 
 .nav-link:hover {
+  cursor: pointer;
   color: darkred;
   text-shadow: 0 0 10px darkred;
-  cursor: pointer;
+  text-decoration: none;
+  
   transition: color 0.3s ease-out, text-shadow 0.3s ease-out;
 }
 
@@ -74,26 +54,21 @@ nav {
 
 
 
-
-
 #content-bg {
-  box-sizing: border-box;
-  height: 85%;
-  width: 100%;
-  padding: 0.5%;
+  background: #DDD;
 }
 
 #content {
   box-sizing: border-box;
-  margin-left: 16.6666%;
-  width: 66.6664%;
-  height: 100%;
-  background: none;
+  background: url(../img/paper.jpg);
+  ;
+  
+  margin: 0 auto;    
   padding: 1%;
+  
   text-align: justify;
   box-shadow: 0 10px 50px black;
-  border: 3px solid black;
-  overflow-y: scroll;
+  border: 1px solid #DDD;
 }
 
 
@@ -121,7 +96,8 @@ section section {
   padding: 1%;
   margin-bottom: 1%;
   border-radius: 1%/50%;
-  box-shadow: 0 0 15px lightgray;
+  border: 2px solid #888;
+  box-shadow: 0 0 5px 2px #AAA;
   
 }
 
@@ -143,7 +119,7 @@ section p {
 
 p strong, p b {
   font-weight: bold;
-  color: black;
+  color: #111;
 }
 
 p em {

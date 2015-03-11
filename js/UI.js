@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
   //initial loading of main content section
-  $("#content").load("content/main.html");
+  $("#content").load("content/apps.html");
 
 
   //loads whatever is clicked on
