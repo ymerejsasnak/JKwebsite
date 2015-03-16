@@ -1,5 +1,7 @@
 ###content
 
+* update and organize ALL content
+
 * apps - work on portfolio and add stuff asap!
 * music - mostly fine.  embed a sample song or two in page w/ bandcamp widget?
 * stories - fine for now. try to publish other 'finished stories' or just put here if I give up on subbing them
@@ -14,9 +16,7 @@
 
 
 ###issues:
-* keep working on header responsiveness (use media queries)
-* get rid of margins on smaller devices
-* slime doesn't work on phone??? (does it work on tablet?)
+* ??slime doesn't work on phone??? (does it work on tablet?)
 
 
 

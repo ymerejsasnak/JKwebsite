@@ -23,7 +23,7 @@ html, body {
 nav {
   position: fixed;
 
-  background: #EEE;
+  background: #DDD;
   border-bottom: 1px solid #222;
   box-shadow: 0 0 20px #111;
 
@@ -55,34 +55,39 @@ nav {
 
 
 #content-bg {
-  background: #DDD;
+  background: #AAA;
 }
 
 #content {
   box-sizing: border-box;
   background: url(../img/paper.jpg);
-  ;
   
-  margin: 0 auto;    
+  
+  margin: 6% auto;    
   padding: 1%;
   
   text-align: justify;
   box-shadow: 0 10px 50px black;
   border: 1px solid #DDD;
+  border-radius: 10px;
 }
 
 
 section h2 {
+  margin: 1%;
   font-family: light-typewriter;
+  color: #111;
   font-size: 2em;
   text-align: center;
   text-shadow: 1px 1px 5px black;
 }
 section h6 {
+  margin: 2%;
   font-family: typewriter;
+  color: #222;
   font-size: 1.1em;
   text-align: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #555;
   padding-bottom: 1%;  
   margin-bottom: 2%;
   text-shadow: 1px 1px 1px black;
@@ -95,7 +100,7 @@ section section {
   box-sizing: border-box;
   padding: 1%;
   margin-bottom: 1%;
-  border-radius: 1%/50%;
+  border-radius: 10px;
   border: 2px solid #888;
   box-shadow: 0 0 5px 2px #AAA;
   

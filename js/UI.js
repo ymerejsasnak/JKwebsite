@@ -12,14 +12,7 @@ $(document).ready(function() {
   });
 
 
-  //show certificate
-  $("#content").on("click", "li a", function() {
-    $(this).next().show();
-  });
-  //hide cert
-  $("body").on("click", function() {
-    $("object").hide();
-  });
+  
 
 
   //start slime animation
