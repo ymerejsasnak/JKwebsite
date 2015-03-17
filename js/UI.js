@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
 
-
+//use html id to load .html file of same name
 function switchContent(pageContent) {
 	var context = $("#content");
 	context.empty();
