@@ -3,7 +3,7 @@
 * apps - work on portfolio and add stuff asap!
 * music - embed a sample song or two in page w/ bandcamp widget?
 * stories - eventually try to publish other 'finished stories' or just put here if I give up on subbing them
-* bio - add resume once it's done, add 'contactme' link (set up email on my new domain???), add link to JS test, Udemy cert when class done
+* bio - add resume, 'contactme' link, add link to JS test, link to codewars page, Udemy cert when class done?
 * add 'an honest self-assessment of my skills' - to either portfolio or bio page or maybe blog...kind of like a long winded resume of web knowledge
 
 ###other things?
@@ -14,7 +14,9 @@
 * ??slime doesn't work on phone??? (does it work on tablet?)
 
 ####changes on server:
-lost track...at this point, just delete everything from server that no longer exists locally, then update ALL files with current local files
-in future, automate this! (grunt?)
+*lost track...at this point, just delete everything from server that no longer exists locally, then update ALL files with current local files
+*in future, automate this! (grunt?)
+* files: all content files, terrarium files, word virus as it stands now
+
 
 
