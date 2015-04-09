@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="terrarium.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="animateworld.js"></script>
+  <script src="entities.js"></script>
+  <script src="terrarium.js"></script>
+  <script src="UI.js"></script>
+  <title>UNREALISTIC LIFE SIMULATOR</title>
+</head>
+
+
+<body>
+
+
+
+  <div id="container"></div>
+
+  
+  <div id="controls">
+    <button id="start-stop">START</button>
+    
+    <label id="speed-label" for="speed">normal</label>
+    <input id="speed" type="range" min="400" max="1000" value="700" step="100" autocomplete="off"></input>
+    
+    <span class="separator"> | </span>
+
+    <select id="edit-menu" autocomplete="off">
+
+      <option value=" " selected>empty cell</option>
+      <option value="#">wall</option>
+       <option value="?">spawner</option>
+
+      <option disabled>---</option>
+      
+      <option value="*">flower</option>
+      <option value="~">vine</option>
+      <option value="V">flytrap</option>
+
+      <option disabled>---</option>
+      
+      <option value="O">rabbit</option>
+      <option value="T">turtle</option>
+      <option value="@">wolf</option>
+      <option value="&">sick wolf</option>
+      
+      <option disabled>---</option>
+      <option disabled>EVOLVERS</option>
+      <option value="1">plant</option>
+      <option value="2">herbivore</option>
+      <option value="3">carnivore</option>
+
+      <option disabled>---</option>
+      
+      <option value="x">virus</option>
+     
+
+    </select>
+
+    <button id="fill-all">FILL ALL</button>
+    <button id="fill-empty">FILL EMPTY</button>
+    <button id="random">RANDOM</button>
+    
+    <span class="separator"> | </span>
+
+    <button id="save">SAVE</button>
+    <button id="load">LOAD</button>
+    <button id="reset">DEFAULT</button>
+
+    <span class="separator"> | </span>
+
+    <button id="help-button">HELP</button>
+
+
+
+    <div id="help">
+      
+      <table id="legend">
+
+        <tr>
+          <td>
+            <div class="legend legend-plant">&#x00A5</div>
+          <td>
+            <p>Flower</p>
+            <p>Grows and reproduces.</p>
+          <td>
+            <div class="legend legend-plant">~</div>
+          <td>
+            <p>Vine</p>
+            <p>Grows and reproduces in lines.</p>
+          <td>
+            <div class="legend legend-plant">v</div>
+          <td>
+            <p>Giant Flytrap</p>
+            <p>Carnivorous plant that eats rabbits.</p>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="legend" id="legend-rabbit">&#x0264</div>
+          <td>
+            <p>Rabbit</p>
+            <p>Eats flowers and vines.</p>
+          <td>
+            <div class="legend" id="legend-turtle">o</div>
+          <td>
+            <p>Turtle</p>
+            <p>Eats flowers, vines, and flytraps.  Moves slowly but cannot be eaten by carnivores.</p>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="legend" id="legend-wolf">&#x0434</div>
+          <td>
+            <p>Wolf</p>
+            <p>Eats rabbits.</p>
+          <td>
+            <div class="legend" id="legend-carrier">&#x0434</div>
+          <td>
+            <p>Sick Wolf</p>
+            <p>Same as wolf, but will randomly unleash a virus upon death.</p>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="legend legend-virus">x</div>
+          <td>
+            <p>Virus</p>
+            <p>Very short life span but can infect any other lifeform, spreading quickly in dense populations.</p>
+          <td>
+            <div class="legend" id="legend-spawner">?</div>
+          <td>
+            <p>Spawner</p>
+            <p>Special element.  Randomly spawns other lifeforms around it.</p>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="legend legend-evolver">&#x00A5</div>
+          <td>
+            <p>Evolver - Flower Stage</p>
+            <p>Same as flower, but will evolve to rabbit stage after growing enough.</p>
+          <td>
+            <div class="legend legend-evolver">&#x0264</div>
+          <td>
+            <p>Evolver - Rabbit Stage</p>
+            <p>Same as rabbit, but will evolve to wolf stage after eating enough plants.</p>
+          <td>
+            <div class="legend legend-evolver">&#x0434</div>
+          <td>
+            <p>Evolver - Wolf Stage</p>
+            <p>Same as wolf, but will give birth to a flower stage evolver after eating enough rabbits.</p>
+        </tr>
+
+      </table>
+    
+    </div>
+
+
+    <div id="about">
+      <p>UNREALISTIC LIFE SIMULATOR</p>
+      <p>by <a href="#">Jeremy Kansas</a></p>
+      <p>An exercise in learning HTML, CSS, Javascript, and JQuery 
+        which began life as the Chapter 7 project in Marijin Haverbeke's excellent book 
+        <a href="http://eloquentjavascript.net/index.html">Eloquent Javascript</a>.</p>
+    </div>
+    
+  </div>
+
+
+
+</body>
+
+
+
+</html>
+

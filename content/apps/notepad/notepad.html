@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<title>Word Virus</title>
+</head>
+
+<body>
+
+  <textarea id="notepad" autofocus></textarea>
+
+
+
+  <div id="menu">
+
+  	<button id="new" class="file-functions">New</button>
+    <button id="open" class="file-functions">Open</button>
+    <button id="save" class="file-functions">Save</button>
+    
+
+
+  	
+
+  	<button class="menu-item">Generate</button>
+    <div id="generate-menu" class="submenu">
+      <button id="wikipedia" class="submenu-item">Get Random Wikipedia</button>
+    </div>
+
+
+
+
+    <button class="menu-item">Transform</button>
+    <div id="transform-menu" class="submenu">
+      <button id="word-shuffle" class="submenu-item">Word Shuffle</button>
+      <button id="sentence-shuffle" class="submenu-item">Sentence Shuffle</button>
+      <button id="paragraph-shuffle" class="submenu-item">Paragraph Shuffle</button>
+      <button class="spacer"></button>
+      <button id="remove-punctuation" class="submenu-item">Remove Punctuation</button>
+      <button id="remove-words" class="submenu-item">Remove 10% of Words</button>
+      <button class="spacer"></button>
+      <button id="blockify" class="submenu-item">Blockify</button>
+      <button id="poemify" class="submenu-item">Poemify</button>
+      
+    </div>
+
+
+
+
+    <button class="menu-item">Options</button>
+    <div id="options-menu" class="submenu">
+      <button id="hide-show-text" class="submenu-item">Hide/Show Text</button>
+      <button id="nodelete" class="submenu-item">Toggle Delete/Backspace</button>
+    </div>
+
+
+
+
+  	<button class="menu-item">Help</button>
+    <div id="help-menu" class="submenu">
+      <button class="submenu-item">Dummy</button>
+    </div>
+
+
+  </div>
+
+
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="underscore-min.js"></script>
+  <script src="underscore.string.min.js"></script>
+  <script src="UI.js"></script>
+  <script src="transform.js"></script>
+  <script src="generate.js"></script>
+
+</body>
+</html>
