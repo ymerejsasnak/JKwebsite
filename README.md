@@ -5,6 +5,7 @@
 
 ###future?
 
+* dev - put mastermind up here
 * music - embed a sample song or two in page w/ bandcamp widget?
 * bio - add resume and 'contactme' link
 * was gonna add a blog and cms...but instead will probably just use wordpress and link to it...keep this site static and simple
